@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CSCI 300</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bookmarks">Bookmarks</string>
+    <string name="action_search">Search</string>
+    <string name="action_edit">Bookmarks</string>
+    <string name="action_done">Done</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_settings_fragment">SettingsFragment</string>
+    <string name="go_home">Home</string>
+    <string name="pref_home_page_default">www.google.com</string>
+    <string name="pref_home_page_summary">Tap to set homepage</string>
+    <string name="pref_home_page_title">Homepage</string>
+
+</resources>

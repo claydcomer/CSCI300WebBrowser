@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_edit"
+        android:showAsAction="always"
+        android:title="@string/action_edit"/>
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_bookmark"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_back"
+        android:icon="@drawable/ic_action_back"
+        android:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_home_page_default"
+        android:key="home_page"
+        android:summary="@string/pref_home_page_summary"
+        android:title="@string/pref_home_page_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="Volume"
+        android:summary="Turn volume on or off"
+        android:title="Mute Volume" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="http"
+        android:summary="Add http:// to web address if not already added"
+        android:title="Http Add" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="sort"
+        android:summary="Sort bookmarks alphabetically"
+        android:title="Sort Bookmarks" />
+
+    <com.example.hw_7.TimePreference
+        android:key="time"
+        android:summary="Set Time for Notification"
+        android:defaultValue="12:00"
+        android:title="Set Time" />
+
+    <EditTextPreference
+        android:key="webpage"
+        android:summary="Add Webpage"
+        android:title="Web Page" />
+
+</PreferenceScreen>
